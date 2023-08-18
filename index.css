@@ -1,0 +1,364 @@
+/*This class specifies the background-color, text-align, font-family, font-size, font-weight, color, border, width, padding-left, padding-right, padding-top, 
+ padding-bottom and float properties for the title text of the website.*/
+.title1{
+	background-color: #003087;
+	text-align: center;
+	font-family: Agency FB; 
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;   
+	border: none;
+	width: 20%;  
+	padding-left: none;   
+	padding-right: 1%;      
+	padding-top: 0.97%;         
+	padding-bottom: none;                 
+	float: left;   
+}
+
+/*This class specifies the color, font-size, height, text-align, background-color and padding-top properties for the navigation bar of the website.*/
+.navigation{ 
+	color: white;
+	font-size: 20px;
+	height: 90px;
+	text-align: center;
+	background-color: #003087;
+	padding-top: 10px;
+} 
+
+/*This class specifies the background-color, width and height properties for the whitespace between the main content of each page.*/  
+.whitespace{
+	background-color: 2px;
+	width: 2%;
+	height: 5px;
+}
+
+/*This class specifies the background-color, text-align, padding-top and height properties for the body content of each page.*/ 
+.dmainbody{      
+	background-color: none;      
+	text-align: center;
+	padding-top: 5px;
+	height: fixed;  
+}
+
+/*This class specifies the font-family, text-decoration, color, background-color, width, padding-bottom, margin-top and padding-bottom properties of h1 text.*/ 
+.h1{
+	font-family: Agency FB;
+	text-decoration: underline;
+	color: #003087;   
+	background-color: white;   
+	width: fixed;
+	margin-top: -16px;  
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
+/*This class specifies the font-family, background-color, width, padding-top and margin-top properties of h2 text.*/ 
+.h2{
+	font-family: Agency FB;
+	background-color: white;   
+	width: fixed;   
+	padding-top: 1px;
+	margin-top: -16px;
+	
+}
+
+/*This class specifies the font-family and float properties of h3 text.*/ 
+.h3{
+	font-family: Agency FB;  
+	float: left;   
+}
+
+/*This class specifies the background-color, border, border-top, border-bottom, padding-top, height, width, white-space, padding-bottom, padding and 
+table-layout properties of container1 within the main content of the Homepage.*/  
+.container1{
+	background-color: none;    
+	border: #003087 solid 2px;  
+	border-top: none;
+	border-bottom: none;   
+	padding-top: 16px;
+	height: fixed;   
+	width: fixed;
+	white-space: nowrap;
+	padding-bottom: 25px;   
+	padding: 5px;
+	table-layout: fixed;
+}
+
+/*This class specifies the background-color, padding-top, height, width, white-space, padding-bottom, padding, border, border-top, border-bottom and 
+table-layout properties of container2 within the main content of the About Me page.*/  
+.container2{
+	background-color: none;     
+	padding-top: 16px;
+	height: fixed;   
+	width: none;
+	white-space: nowrap;
+	padding-bottom: 25px;   
+	padding: 5px;
+	border: #003087 solid 2px;
+	border-top: none;
+	border-bottom: none;
+	table-layout: fixed;
+}
+
+/*This class specifies the background-color, border, border-top, border-bottom, padding-top, height, width, white-space, padding-bottom, padding and 
+table-layout properties of container3 within the main content of the Qualifications, Work Experience and Body of Work pages.*/  
+.container3{ 
+	background-color: none;    
+	border: #003087 solid 2px;  
+	border-top: none;
+	border-bottom: none;   
+	padding-top: 16px;
+	height: fixed;   
+	width: fixed;
+	white-space: nowrap;
+	padding-bottom: 25px;   
+	padding: 5px; 
+	table-layout: fixed;
+}
+
+/*This class specifies the background-color, border, border-top, border-bottom, padding-top, height, width, white-space, padding-bottom, padding and 
+table-layout properties of container4 within the main content of the Contact Me page.*/  
+.container4{
+	background-color: none;    
+	border: #003087 solid 2px;  
+	border-top: none;
+	border-bottom: none;   
+	padding-top: 16px; 
+	height: 500px;    
+	width: fixed;
+	white-space: nowrap;   
+	padding-bottom: 25px;   
+	padding: 5px;  
+	table-layout: fixed;  
+	margin-top: -5px;
+}
+
+/*This class specifies the font-family, color, background-color, width, margin-top, border, border-top, border-bottom, padding-bottom and padding-top 
+properties of paragraph text.*/
+.p{
+	font-family: Agency FB;
+	color: #003087;     
+	background-color: white;   
+	width: fixed;
+	margin-top: -100px;
+	border: #003087 solid 2px;
+	border-top: none;
+	border-bottom: none;
+	padding-bottom: 100px;
+	padding-top: 50px; 
+}
+    
+/*This class specifies the font-family, color, float, background-color, width, height and margin-top properties of paragraph1 text.*/
+#p1{  
+	font-family: Agency FB;
+	color: #003087;    
+	float: left;
+	background-color: white;
+	width: 20px;
+	height: 100px;
+	margin-top: -16px;    
+}   
+
+/*This class specifies the padding-bottom property of IMG4 on the Homepage.*/ 
+.IMG4paddingbottom{  
+	padding-bottom: 21px; 
+}
+
+/*This class secifies the float, background-color, width, text-align, color, font-family, height and padding-bottom properties of the footerarea of each page.*/
+.footerarea{
+	float: left;
+	background-color: #003087;
+	width: 100%; 
+	text-align: left;
+	color: white;
+	font-family: Agency-FB; 
+	height: 100px; 
+	padding-bottom: 45px;  
+}     
+
+/*This class specifies the float and padding-top properties of the LinkedIn section of the footerarea of each page.*/
+.LinkedIn{
+	float: right;
+	padding-top: 40px;
+}
+
+/*This class specifies the color and font-size properties of heading1 text.*/ 
+h1{
+	color: #003087;
+	font-size: 20px;
+}
+
+/*This class specifies the color and font-size, font-family and text-decoration properties of heading2 text.*/
+h2{
+	color: #003087;
+	font-size: 20px;
+	font-family: Agency FB; 
+	text-decoration: underline;  
+}
+
+/*This class specifies the color, font-size, padding-left, padding-bottom and margin-bottom properties of heading3 text.*/
+h3{
+	color: white;
+	font-size: 12px;
+	padding-left: 5px; 
+	padding-bottom: 3px;
+	margin-bottom: -10px;
+}
+
+/*This class specifies the color, font-size and font-family properties of paragraph text.*/
+p{
+	color: #003087;
+	font-size: 20px;
+	font-family: Agency FB; 
+}
+
+/*This class specifies the text-align properties of paragraph2 text.*/
+p2{
+	text-align: left;
+}
+
+/*This class specifies the font-family, text-decoration, text-align, color, background-color, width, padding-bottom, margin-top, padding-top, padding-bottom,  
+border, border-top and border-bottom properties of centrally aligned heading1 text.*/ 
+.h1center{
+	font-family: Agency FB;
+	text-decoration: underline;
+	text-align: center;
+	color: #003087;   
+	background-color: white;   
+	width: fixed;
+	padding-bottom: 90px;
+	margin-top: -16px;  
+	padding-top: 20px;
+	padding-bottom: 50px;
+	border: #003087 solid 2px;     
+	border-top: none;
+	border-bottom: none;
+}
+
+/*This class specifies the text-align, font-familym text-decoration, color, font-weight, font-size, padding-left, border, border-top, margin-top, padding-top 
+and padding-bottom properties of left aligned heading1 text.*/ 
+.h1left{
+	text-align: left;
+	font-family: Agency FB;
+	text-decoration: underline;
+	color: #003087;
+	font-weight: bold;     
+	font-size: 20px;
+	padding-left: 10%;
+	border: #003087 solid 2px;
+	border-top: none;
+	border-bottom: none;  
+	margin-top: -5px;  
+	padding-top: 20px;   
+	padding-bottom: 10px;  
+}
+
+/*This class specifies the text-align and margin-bottom properties of centrally aligned paragraph text.*/
+.pcenter{
+	text-align: center; 
+	margin-bottom: 50px;
+}
+
+/*This class specifies the text-align, padding-left, padding-right, padding-top and padding-bottom properties of left aligned paragraph text.*/
+.pleft{
+	text-align: left;
+	padding-left: 10%;      
+	padding-right: 55%; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*This class specifies the float, width, height, padding-top, padding-left, padding-right, padding-bottom, border, margin and background-color properties of
+the Professional Picture of myself held within the right div on the About Me page.*/
+.right{
+	float: right;
+	width: fixed;
+	height: fixed;    
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	border: none;
+	margin: none;  
+	background-color: none;
+}   
+ 
+/*This class specifies the border and color properties for when each navigation link is active within the responsive navigation.*/ 
+.active {
+	border: white solid 2px; color: black;   
+}
+
+/*This class contains the overflow, padding-right,, padding-left, padding-top, background-color and font-weight properties for when each webpage is minimised
+and hides the navigation links.*/
+.topnav {
+	overflow: hidden;
+	padding-right: 1%;padding-left: 0%;padding-top: 1%;
+	background-color: #003087; font-weight: bold;      
+	
+}
+
+/*This class specifies the float, display, color, padding, text-decoration and font-size properties for when each webpage is minimised.*/
+.topnav a {
+	float: right;display: block;
+	color: white;  
+	padding: 12px; 
+	text-decoration: none;
+	font-size: 20px; font-family: Agency FB;
+}
+
+/*This class specifies the background-color and color properties for when the navigation links and the navigation icon are hovered over.*/
+.topnav a:hover {
+	background-color: white;
+	color: black;
+}
+
+/*This class displays an icon for when the screen is less than 800 pixels wide if each page is minimised. */
+.topnav .icon { display: none;}  
+
+/*This class hides all navigation links when the screen is less than 800 pixels wide and displays the navigation icon which displays the links when 
+selected. */
+@media screen and (max-width: 800px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+/*This class presents users with all the navigation links when the navigation icon is selected if each webpage is minimised. */ 
+@media screen and (max-width: 800px) {   
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: center;
+	}       
+
+/*This class specifies the width property of the table present within the main content of the Homepage. */ 
+.table{
+	width: 100%;
+}
+
+/*This class specifies the float and width property of the table present within the main content of the About Me page. */
+.table2{
+	float: center;
+	width: 100%;  
+}     
+
+/*This class specifies the width property of the table present within the main content of the Qualifications page. */  
+.table3{
+	width: 100%;
+}
+
+/*This class specifies the float and width property of the table present within the main content of the Work Experience page. */
+.table4{
+	width: 100%;    
+}  
+
+/*This class specifies the width property of the table present within the main content of the Body of Work page. */
+.table5{
+	width: 100%;
+} 
+
+	 
