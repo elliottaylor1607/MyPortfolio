@@ -1,0 +1,27 @@
+/*This class specifies the width property of the table present within the main content of the Homepage. */ 
+.table{
+	width: 100%;
+}
+
+/*This class specifies the float and width property of the table present within the main content of the About Me page. */
+.table2{
+	float: center;
+	width: 100%;  
+}     
+
+/*This class specifies the width property of the table present within the main content of the Qualifications page. */  
+.table3{
+	width: 100%;
+}
+
+/*This class specifies the float and width property of the table present within the main content of the Work Experience page. */
+.table4{
+	width: 100%;    
+}  
+
+/*This class specifies the width property of the table present within the main content of the Body of Work page. */
+.table5{
+	width: 100%;
+} 
+
+	 
