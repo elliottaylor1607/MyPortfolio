@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- Specifying the document type --> 
+<html> <!-- Start of webpage's HTML content -->
+<head> <!-- Start of webpage's heading content -->
+<title> About Me </title> <!-- Title of the webpage -->
+<link rel="stylesheet" href="css/Assignment3StyleSheet.css"> <!-- Referencing external CSS --> 
+<link rel="stylesheet" href="css/Assignment3TableStyleSheet.css"> <!-- Referencing external CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Giving instructions on how to scale each page of the website when viewed within different web browsers -->
+<meta name="author" content="ET Bedford College"> <!-- Crediting the author of the webpage -->   
+<script> <!-- Start of JavaScript -->
+/*This function alternates between including and removing the responsive class to and from the topnav class for when the user selects the navigation icon if 
+the screen is less than 800 pixels wide when each page is minmised. */
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+}
+</script> <!-- End of JavaScript --> 
+</head> <!-- End of webpage's heading content -->
+<body> <!-- Start of webpage's body content -->
+	<div class="navigation"> <!-- Start of responsive navigation -->  
+	  <div class="title1"> ELLIOT TAYLOR <!--Start of title1 div -->              
+	  </div> <!-- End of title1 div -->
+		<div class="topnav" id="myTopnav"> <!-- Start of topnav div -->
+			<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a> <!-- Implementing a function which will display a navigation icon that will display the navigation links if selected when viewed on small screens with a reference to the icon -->  
+			<a href="ContactMe.html"> CONTACT ME</a> <!-- Referencing the hyperlink for the Contact Me page -->    
+			<a href="BodyofWork.html"> BODY OF WORK</a> <!-- Referencing the hyperlink for the Body of Work page -->
+			<a href="WorkExperience.html"> WORK EXPERIENCE</a> <!-- Referencing the hyperlink for the Work Experience page -->  
+			<a href="Qualifications.html"> QUALIFICATIONS</a> <!-- Referencing the hyperlink for the Qualifications page --> 
+			<a class="active" href="AboutMe.html"> ABOUT ME</a> <!-- Referencing the hyperlink for the About Me page and highlighting it to indicate that it's currently active -->   
+			<a href="index.html"> HOME</a> <!-- Referencing the hyperlink for the Homepage -->    
+		</div> <!-- End of topnav div -->
+			<div class="whitespace"> <!-- Start of whitespace div -->
+			</div> <!-- End of whitespace div -->
+	</div> <!-- End of responsive navigation -->
+		<div class="dmainbody"> <!-- Start of dmainbody div -->    
+			<div class="h1left"> <!-- Start of heading1left div -->
+				<h1> WHO AM I? </h1> <!-- Specifying heading1 text within the heading1left div --> 
+			</div> <!-- End of heading1left div -->
+				<div class="container2"> <!-- Start of container2 div -->
+				<div class="right"> <!-- Start of right div -->
+					<table class="table2"> <!-- Start of table2 div -->  
+						<tbody> <!-- Opening a tablebody tag -->
+							<tr> <!-- Opening a tablerow tag -->
+								<td> <img src="Images/ProfessionalPicture.png" width="180px" height="250px" alt="Professional Picture of Me"/></td> <!-- Specifying the source of the professional picture of myself, its width within the body section of the table and describing alternate text --> 
+							</tr> <!-- Closing the tablerow tag -->
+						</tbody> <!-- Closing the tbody tag -->
+					</table> <!-- Closing the table2 div -->
+				</div> <!-- Closing the right div -->
+						<div class="pleft"> <!-- Start of paragraphleft div -->  
+							<div class="p1"> <!-- Start of paragraph1 div -->        
+								<p> I’m a computing student <br> who has recently graduated <br> from the University of <br> Northampton <br> with a First Class Hons <br> Bachelor of Science in <br> Digital Technologies <br> <br> <br> <!-- Start of paragraph div and inserting several line breaks to break up the text -->
+									I have over 6 years <br> experience in computing <br> and possess skills and knowledge <br> of different areas of the IT industry. <br> <br> <br> <!-- Continuation of paragraph text and inserting several line breaks to break up the text -->     
+									The main areas I consider <br> myself to be the most <br> confident in are website <br> design and programming, where <br> I’m able to demonstrate my creativity. <br> <br> <br> <!-- Continuation of paragraph text and inserting several line breaks to break up the text -->
+									Currently, I am seeking employment <br> as a web developer, <br> where I can further <br> develop my skills professionally. <br> <br> <br> <!-- Continuation of paragraph text and inserting a line break to break up the text -->
+									My CV is available upon <br> request. <!-- Continuation of paragraph text and inserting a line break to break up the text -->
+							</div> <!-- End of paragraph1 div -->
+						</div> <!-- End of paragraphleft div -->  
+				</div> <!-- End of container2 div -->  
+		<div class="footerarea"> <!-- Start of footerarea div -->   
+			<div class="h3"> <!-- Start of heading3 div --> 
+				<h3> <br> <br> <br> <br> <br> <br> LinkedIn Logo © LinkedIn 2021 <!-- Specifying heading3 text and inserting several line breaks to break up the text -->
+			</div> <!-- End of heading3 div -->
+				<div class="LinkedIn"> <!-- Start of LinkedIn div -->
+				<a href="https://www.linkedin.com/in/elliot-taylor-742595279/"> <img src="Images/LinkedIn.png" width="100px" height="80px" alt="LinkedIn Logo"/> <!-- Specifying the source of the LinkedIn logo, its width, height and describing alternate text -->         
+				</div> <!-- End of LinkedIn div -->
+		</div> <!-- End of footerarea div --> 
+	</div> <!-- End of dmainbody div -->
+</body> <!-- End of webpage's body content -->
+</html> <!-- End of webpage's HTML content -->

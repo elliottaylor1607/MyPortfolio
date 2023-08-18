@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- Specifying the document type --> 
+<html> <!-- Start of webpage's HTML content -->
+<head> <!-- Start of webpage's heading content -->  
+<title> Work Experience </title> <!-- Title of the webpage -->  
+<link rel="stylesheet" href="css/Assignment3StyleSheet.css"> <!-- Referencing external CSS -->        
+<link rel="stylesheet" href="css/Assignment3TableStyleSheet.css"> <!-- Referencing external CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Giving instructions on how to scale each page of the website when viewed within different web browsers -->
+<meta name="author" content="ET Bedford College"> <!-- Crediting the author of the webpage -->       
+<script> <!-- Start of JavaScript -->  
+/*This function alternates between including and removing the responsive class to and from the topnav class for when the user selects the navigation icon if 
+the screen is less than 800 pixels wide when each page is minmised. */
+function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+}
+</script> <!-- End of JavaScript --> 
+</head> <!-- End of webpage's heading content -->
+<body> <!-- Start of webpage's body content --> 
+	<div class="navigation"> <!-- Start of responsive navigation -->
+	  <div class="title1"> ELLIOT TAYLOR <!--Start of title1 div -->              
+	  </div> <!-- End of title1 div -->
+		<div class="topnav" id="myTopnav"> <!-- Start of topnav div -->
+			<a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a> <!-- Implementing a function which will display a navigation icon that will display the navigation links if selected when viewed on small screens with a reference to the icon -->  
+			<a href="ContactMe.html"> CONTACT ME</a> <!-- Referencing the hyperlink for the Contact Me page -->   
+			<a href="BodyofWork.html"> BODY OF WORK</a> <!-- Referencing the hyperlink for the Body of Work page -->
+			<a class="active" href="WorkExperience.html"> WORK EXPERIENCE</a> <!-- Referencing the hyperlink for the Work Experience page and highlighting it to indicate that it's currently active -->  
+			<a href="Qualifications.html"> QUALIFICATIONS</a> <!-- Referencing the hyperlink for the Qualifications page -->
+			<a href="AboutMe.html"> ABOUT ME</a> <!-- Referencing the hyperlink for the About Me page -->
+			<a href="index.html"> HOME</a> <!-- Referencing the hyperlink for the Homepage -->        
+		</div> <!-- End of topnav div -->
+			<div class="whitespace"> <!-- Start of whitespace div -->
+			</div> <!-- End of whitespace div -->
+	</div> <!-- End of responsive navigation --> 
+	<div class="dmainbody"> <!-- Start of dmainbody div -->
+		<div class="h1center"> <!-- Start of heading1center div -->  
+			<h1> CURRENT & PREVIOUS EMPLOYERS </h1> <!-- Specifying heading1 text within the heading1center div --> 
+		</div> <!-- End of heading1center div --> 
+			<div class="container3"> <!-- Start of container3 div -->  
+				<table class="table4"> <!-- Start of table4 div -->       
+					<thead> <!-- Opening a tableheading tag -->  
+						<tr> <!-- Opening a tablerow tag -->
+							<th> <h2> WAITROSE & <br> PARTNERS <br> RUSHDEN - <br> RETAIL PARTNER <br> (2021-PRESENT) </h2> <br> <img src="Images/WaitroseLogo.png" width="130px" alt="Waitrose & Partners Logo"/> </th>  <!-- Specifying paragraph text within the body section of the table, the source of the Taylors logo and its width, inserting several line breaks to break up the text and describing alternate text -->  
+							<th> <h2> SAFETY <br> SOLUTIONS <br> MIDLANDS - <br> OPTIMISER <br> (2017) </h2> <br> <img src="Images/SafetySolutionsLogo2.png" width="130px" alt="Safety Solutions Logo"/> </th> <!-- Specifying paragraph text within the body section of the table, the source of the Waitrose logo and its width, inserting several line breaks to break up the text and describing alternate text --> 
+							<th> <h2> WAITROSE & <br> PARTNERS <br> BEDFORD - <br> RETAIL PARTNER <br> (2015-2016) </h2> <img src="Images/WaitroseLogo.png" width="130px" alt="Waitrose & Partners Logo"/> </th> <!-- Specifying paragraph text within the body section of the table, the source of the Safety Solutions logo and its width, inserting several line breaks to break up the text and describing alternate text -->  
+						</tr> <!-- Closing the tablerow tag --> 
+					</thead> <!-- Closing the tableheading tag --> 
+							<tbody> <!-- Opening a tablebody tag -->  
+								<tr> <!-- Opening a tablerow tag -->   
+                                                               </tr> <!-- Closing the tablerow tag -->  
+							</tbody> <!-- Closing the tbody tag --> 
+                                                         <thead> <!-- Opening a tableheading tag -->   
+						<tr> <!-- Opening a tablerow tag --> 
+							<th> <h2> KEECH <br> HOSPICE CARE <br> BEDFORD- <br> SHOP ASSISTANT <br> (2015) </h2> <br> <img src="Images/KeechLogo.png" width="130px" alt="Keech Hospice Care Logo"/> </th>  <!-- Specifying paragraph text within the body section of the table, the source of the Taylors logo and its width, inserting several line breaks to break up the text and describing alternate text -->  
+							<th> <h2> TAYLORS <br> ESTATE AGENTS <br> BEDFORD - <br> STOCK ASSISTANT <br> (2015-2016) </h2> <br> <img src="Images/TaylorsLogo.png" width="130px" alt="Taylors Estate Agents Logo"/> </th> <!-- Specifying paragraph text within the body section of the table, the source of the Waitrose logo and its width, inserting several line breaks to break up the text and describing alternate text -->
+                                                        </tr> <!-- Closing the tablerow tag --> 
+					</thead> <!-- Closing the tableheading tag --> 
+							<tbody> <!-- Opening a tablebody tag -->
+								<tr> <!-- Opening a tablerow tag -->
+					</tr> <!-- Closing the tablerow tag --> 
+					</thead> <!-- Closing the tableheading tag --> 
+                                   </table> <!-- Closing the table4 div -->    
+			</div>	<!-- End of container3 div -->		
+			<div class="footerarea"> <!-- Start of footerarea div -->
+				<div class="h3"> <!-- Start of heading3 div -->
+					<h3> <br> <br> <br> Waitrose & Partners logo © Waitrose & Partners 2021 <br> <!-- Specifying heading3 text and inserting a line break to break up the text -->
+										Safety Solutions Midlands Logo © Safety Solutions Midlands Ltd 2021 <br> <!-- Continuation of paragraph text and inserting a line break to break up the text -->
+										Waitrose & Partners logo © Waitrose & Partners 2021 <br> <!-- Continuation of paragraph text and inserting a line break to break up the text -->
+										Taylors Estate Agents logo © Taylors Estate Agents 2021 <br>
+										Keech Hospice Care Logo © Keech Hospice Care 2023 <br>
+										LinkedIn Logo © LinkedIn 2021 </br> <!-- Continuation of paragraph text and inserting a line break to break up the text --> 
+				</div> <!-- End of heading3 div --> 
+					<div class="LinkedIn"> <!-- Start of LinkedIn div -->
+					<a href="https://www.linkedin.com/in/elliot-taylor-742595279/"> <img src="Images/LinkedIn.png" width="100px" height="80px" alt="LinkedIn Logo"/> <!-- Specifying the source of the LinkedIn logo, its width, height and describing alternate text -->         
+				</div> <!-- End of LinkedIn div -->
+			</div> <!-- End of footerarea div --> 
+	</div> <!-- End of dmainbody div -->    
+</body> <!-- End of webpage's body content -->
+</html> <!-- End of webpage's HTML content -->    
